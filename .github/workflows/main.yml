@@ -32,7 +32,7 @@ jobs:
      #env: 
       #GOOGLE_SECRET_KEY: ${{ secrets.GOOGLE_SECRET_KEY }}
 
-     run: jupyter execute pipeline-finshed.ipynb
+     run: jupyter execute pipeline-finished.ipynb
 
    # Step 4   
    - name: Commit files
